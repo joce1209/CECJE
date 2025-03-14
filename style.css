@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #004d00; /* Verde escuro para combinar com ambiente escolar */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.imagem-principal {
+    width: 20%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.lista-principal {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sobre {
+    background-color: #e6ffe6; /* Verde claro para suavizar a leitura */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    flex-wrap: wrap;
+}
+
+.div-conteudo {
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.titulo {
+    padding: 24px 0;
+    font-size: 28px;
+    color: #004d00;
+    text-align: center;
+}
+
+.imagem-colegio {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.contato {
+    background-color: #003300; /* Verde ainda mais escuro para destaque */
+    padding: 20px 0;
+   
+
+    
